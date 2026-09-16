@@ -1,3 +1,4 @@
+
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const LanguageContext = createContext();
@@ -206,6 +207,7 @@ export const AdminLanguageProvider = ({ children }) => {
 };
 
 export const useAdminLanguage = () => useContext(LanguageContext);
+import DashboardPage from './pages/DashboardPage';
 import AnalyticsPage from './pages/AnalyticsPage';
 import CenterManagementPage from './pages/CenterManagementPage';
 import CropConfigPage from './pages/CropConfigPage';
