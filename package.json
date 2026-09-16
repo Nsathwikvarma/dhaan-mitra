@@ -1,0 +1,30 @@
+{
+  "name": "dhaan-mitra",
+  "version": "1.0.0",
+  "description": "Smart Farmer Procurement Slot Booking & Grain Quality Management System (SIH 26032)",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "seed": "node server/seed.js",
+    "admin": "npm run dev --prefix admin-web",
+    "mobile": "npm run dev --prefix mobile-app",
+    "build:admin": "npm run build --prefix admin-web",
+    "build:mobile": "npm run build --prefix mobile-app",
+    "mobile:sync": "npm run cap:sync --prefix mobile-app",
+    "mobile:open": "npm run cap:open --prefix mobile-app",
+    "build": "npm run build:admin && npm run build:mobile",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

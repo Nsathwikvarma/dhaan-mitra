@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Dhaan Mitra</string>
+    <string name="title_activity_main">Dhaan Mitra</string>
+    <string name="package_name">com.dhaanmitra.app</string>
+    <string name="custom_url_scheme">com.dhaanmitra.app</string>
+</resources>

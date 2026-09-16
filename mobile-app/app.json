@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Dhaan Mitra",
+    "slug": "dhaan-mitra-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#064e3b"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.dhaanmitra.farmerprocurement"
+    }
+  }
+}
